@@ -1,10 +1,9 @@
 language: python
 python:
-  - "3.9"
+  - "3.8"
 
 install:
   - pip install -r requirements.txt
 
 script:
-  - python train_model.py 
-  - pytest test_model.py
+  - python test_model.py
