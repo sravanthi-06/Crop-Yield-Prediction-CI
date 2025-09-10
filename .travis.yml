@@ -7,3 +7,4 @@ install:
 
 script:
   - python train_model.py 
+  - pytest test_model.py
